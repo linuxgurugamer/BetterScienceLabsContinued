@@ -1,0 +1,6 @@
+0.1.2.0		6/12/2015
+	Added OPT small lab
+	Added MM syntax to make sure KSP doesn't try to load a part for which the mod isn't installed
+	Changed the snack probe, KASModuleContainer, replaced with ModuleKISInventory
+	Added snacks experiment to OPT labs 
+	Added Changelog

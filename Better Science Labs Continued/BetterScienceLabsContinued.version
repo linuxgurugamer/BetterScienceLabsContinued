@@ -1,0 +1,19 @@
+{
+	"NAME":"Better Science Labs Continued",
+	"URL":"http://ksp-avc.cybutek.net/version.php?id=177",
+	"DOWNLOAD":"https://kerbalstuff.com/mod/903/Better%20Science%20Labs%20Continued/download",
+	"CHANGE_LOG_URL":"https://kerbalstuff.com/mod/903/Better%20Science%20Labs%20Continued#changelog",
+	"VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":1,
+		"PATCH":2,
+		"BUILD":0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":0,
+		"PATCH":2
+	}
+}

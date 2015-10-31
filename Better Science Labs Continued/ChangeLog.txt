@@ -4,3 +4,5 @@
 	Changed the snack probe, KASModuleContainer, replaced with ModuleKISInventory
 	Added snacks experiment to OPT labs 
 	Added Changelog
+0.1.3.0		10/14/2015
+	wrong syntax and unnecessary 

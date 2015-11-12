@@ -6,3 +6,5 @@
 	Added Changelog
 0.1.3.0		10/14/2015
 	wrong syntax and unnecessary 
+0.1.5	1.0.5 compatibility
+0.1.6	Added Snacks dependency, submitted by khr15714n

@@ -8,3 +8,5 @@
 	wrong syntax and unnecessary 
 0.1.5	1.0.5 compatibility
 0.1.6	Added Snacks dependency, submitted by khr15714n
+0.1.7   Fixed ordering of MODULES in two files,  fix the issue with the right-click menu vanishing by changing the order of the modules in the part.cfg files of the Mk2 Crewed Lab and the Firespitter ScienceCrewFuselage. Thanks @Flow
+	Added MK1 part

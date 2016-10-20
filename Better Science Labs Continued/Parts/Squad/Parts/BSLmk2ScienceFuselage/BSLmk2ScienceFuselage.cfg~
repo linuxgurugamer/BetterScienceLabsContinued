@@ -1,0 +1,177 @@
+PART
+{
+// Modified by Linuxgurugamer
+// Now 1.0.2 compatible
+// Same capabilities as the Mobile Processing Lab
+// Similar to the MK2 Crew Cabi.  Heavier because of the extra
+// science equipment
+// lengthed to match the size of the science lab
+
+	name = BSLmk2ScienceFuselage
+	module = Part
+	author = Cychotha/LinuxGuruGamer
+
+	MODEL
+	{
+		model = Squad/Parts/Utility/mk2CrewCabin/model
+		// texture = Squad/Parts/Utility/mk2CrewCabin/mk2CrewCabin
+		scale = 1,2,1
+		// texture = Squad/Parts/Science/LargeCrewedLab/Large_Crewed_Lab
+		//scale = 1,1,1
+	}
+
+	mesh = model.mu
+	rescaleFactor = 1
+
+	//node_stack_top = 0.0, 0.9375, 0.0, 0.0, 1.0, 0.0
+	//node_stack_bottom = 0.0, -0.9375, 0.0, 0.0, -1.0, 0.0
+	node_stack_top = 0.0, 1.875, 0.0, 0.0, 1.0, 0.0
+	node_stack_bottom = 0.0, -1.875, 0.0, 0.0, -1.0, 0.0
+
+	CrewCapacity = 3
+
+	TechRequired = advAerodynamics
+	entryCost = 17500
+	cost = 8400 
+        //entryCost = 12000
+        //cost = 4200
+
+	category = Science
+	subcategory = 0
+	title = Mk2 Crewed Lab MPL-MK2-2
+	manufacturer = C7 Aerospace Division
+	description = Initially designed when Bill accidentally sat on a scale model of the MPL-LG-2 Mobile Processing Lab, this model uses the latest in miniaturisation technology (definitely NOT a nearby trash compactor) to fit an entire lab into a more user friendly form factor.
+
+	attachRules = 1,0,1,1,0
+
+	mass = 2.5
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.3
+	angularDrag = 2
+	crashTolerance = 6
+	breakingForce = 200
+	breakingTorque = 200
+	maxTemp = 1400
+	skinMaxTemp = 2500
+	emissiveConstant = 0.8
+	vesselType = Ship
+	bulkheadProfiles = mk2
+
+	// --- winglet parameters ---
+	// dragCoeff will override the maximum_drag value
+	//dragCoeff = 0.4
+	//deflectionLiftCoeff = 0.4
+
+	INTERNAL
+	{
+		name = B9_Crewtank_Mk2_Internal_S
+	}
+
+	MODULE
+	{
+		name = ModuleScienceContainer
+	
+		reviewActionName = Review Data
+		storeActionName = Store Experiments	
+		collectActionName = Take Data
+	
+		evaOnlyStorage = True
+		storageRange = 2.0
+	
+		allowRepeatedSubjects = True
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		experimentID = crewReport
+		experimentActionName = Crew Report
+		resetActionName = Discard Crew Report
+		reviewActionName = Review Report
+		useStaging = False
+		useActionGroups = True
+		hideUIwhenUnavailable = True
+		rerunnable = True
+		xmitDataScalar = 1.0
+		usageReqMaskInternal = 5
+		usageReqMaskExternal = -1
+	}
+
+
+	MODULE
+	{
+		name = ModuleScienceLab
+	
+		containerModuleIndex = 0
+		dataStorage = 500
+		// dataTransmissionBoost = 1.5	
+		crewsRequired = 1
+	
+		canResetConnectedModules = True
+		canResetNearbyModules = True
+		interactionRange = 5
+		SurfaceBonus = 0.1
+		ContextBonus = 0.25
+		homeworldMultiplier = 0.1
+
+		RESOURCE_PROCESS
+		{
+			name = ElectricCharge
+			amount = 10
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceConverter
+		scientistBonus = 0.25	//Bonus per scientist star - need at least one! So 0.25x - 2.5x 
+		researchTime = 7	    //Larger = slower.  Exponential!
+		scienceMultiplier = 5	//How much science does data turn into?
+		scienceCap = 500	    //How much science can we store before having to transmit?		
+		powerRequirement = 5	//EC/Sec to research
+		ConverterName = Research
+		StartActionName = Start Research
+		StopActionName = Stop Research
+	}
+	MODULE
+	{
+		name = ModuleKerbNetAccess
+		MinimumFoV = 17
+		MaximumFoV = 63
+		AnomalyDetection = 0
+		DISPLAY_MODES
+		{
+			Mode = Terrain
+			Mode = Biome
+		}
+		REQUIRED_EFFECTS
+		{
+			Effect = ScienceSkill
+		}
+	}
+
+	MODULE
+	{
+        	name = ModuleExperienceManagement
+        	costPerKerbal = 0
+	}
+
+
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = CrewCabinLight
+		actionGUIName = Toggle Lights
+		startEventGUIName = Lights On
+		endEventGUIName = Lights Off
+	}
+
+	MODULE
+	{
+		name = ModuleLiftingSurface
+		useInternalDragModel = False
+		deflectionLiftCoeff = 0.35
+		dragAtMaxAoA = 0.15
+		dragAtMinAoA = 0.1
+	}
+
+}

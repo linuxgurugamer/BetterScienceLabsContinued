@@ -1,0 +1,140 @@
+PART
+{
+// modified by Linuxgurugamer
+// Brought into line with 1.0.2 lander can and science lab
+
+
+	// --- general parameters ---
+	name = BSLmk2ScienceLC
+	module = Part
+	author = Cychotha/Linuxgurugamer
+
+	// --- asset parameters ---
+	MODEL
+	{
+		model = Squad/Parts/Command/mk2LanderCan/model
+		// texture = Squad/Parts/Command/mk2LanderCan/outershell
+	}
+
+	mesh = model.mu
+	scale = 1
+	rescaleFactor = 1
+
+	// --- node definitions ---
+	// definition format is Position X, Position Y, Position Z, Up X, Up Y, Up Z
+	node_stack_bottom = 0.0, -0.4035744, 0.0, 0.0, -1.0, 0.0, 2
+	node_stack_top = 0.0, 0.7519293, 0.0, 0.0, 1.0, 0.0, 1
+
+
+
+	// --- editor parameters ---
+	TechRequired = fieldScience
+	entryCost = 10000
+	cost = 4000
+	category = Science
+	subcategory = 0
+	title = Mobile Processing Lab MPL-mk2-LC-2
+	manufacturer = Sean's Cannery
+	description = Initially designed when Bill accidentally sat on a scale model of the MPL-LG-2 Mobile Processing Lab, this model uses the latest in miniaturisation technology (definitely NOT a nearby trash compactor) to fit an entire lab into a more user friendly form factor. Don't Worry, we ripped out all the avionics and flight controls to make room for Science!
+
+	// attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
+	attachRules = 1,0,1,1,0
+
+	// --- standard part parameters ---
+	mass = 3.0
+	dragModelType = default
+	maximum_drag = 0.20
+	minimum_drag = 0.15
+	angularDrag = 2
+	crashTolerance = 8
+	maxTemp = 1200
+	skinMaxTemp = 2000
+	vesselType = Lander
+
+	// --- internal setup ---
+	CrewCapacity = 2
+	bulkheadProfiles = size2
+	INTERNAL
+	{
+	  name = landerCabinInternals
+	}
+
+	MODULE
+	{
+		name = ModuleScienceContainer
+		
+		reviewActionName = Review Data
+		storeActionName = Store Experiments	
+		collectActionName = Take Data
+		
+		evaOnlyStorage = True
+		storageRange = 2
+		
+		allowRepeatedSubjects = True
+	}
+	MODULE
+	{
+		name = ModuleScienceLab
+		
+		containerModuleIndex = 0	
+		dataStorage = 500
+		//dataTransmissionBoost = 1.5	
+		crewsRequired = 1
+	
+		canResetConnectedModules = True
+		canResetNearbyModules = True
+		interactionRange = 5
+		SurfaceBonus = 0.1
+		ContextBonus = 0.25
+		homeworldMultiplier = 0.1
+
+		
+		RESOURCE_PROCESS
+		{
+			name = ElectricCharge
+			amount = 10
+		}
+	}
+
+	MODULE
+	{
+		name = ModuleScienceConverter
+		scientistBonus = 0.25   //Bonus per scientist star - need at least one! So 0.25x - 2.5x 
+		researchTime = 7            //Larger = slower.  Exponential!
+		scienceMultiplier = 5   //How much science does data turn into?
+		scienceCap = 500            //How much science can we store before having to transmit?          
+		powerRequirement = 5    //EC/Sec to research
+		ConverterName = Research
+		StartActionName = Start Research
+		StopActionName = Stop Research
+	}
+	MODULE
+	{
+		name = ModuleKerbNetAccess
+		MinimumFoV = 17
+		MaximumFoV = 63
+		AnomalyDetection = 0
+		DISPLAY_MODES
+		{
+			Mode = Terrain
+			Mode = Biome
+		}
+		REQUIRED_EFFECTS
+		{
+			Effect = ScienceSkill
+		}
+	}
+
+	MODULE
+	{
+        	name = ModuleExperienceManagement
+        	costPerKerbal = 0
+	}
+
+	MODULE
+	{
+	      name = FlagDecal
+	      textureQuadName = flagTransform
+	}
+
+}

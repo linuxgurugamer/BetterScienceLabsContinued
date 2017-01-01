@@ -12,3 +12,6 @@
 	Added MK1 part
 0.1.7.1
 	Updated version file
+
+0.1.9
+	Adjusted values to bring more in line with stock

@@ -1,6 +1,0 @@
-
-all configs and documentation licensed MIT: http://opensource.org/licenses/MIT by Cychotha
-
-B9 Aerospace models and textures licensed Creative Commons (CC BY-NC-SA 3.0):
-
-https://creativecommons.org/licenses/by-nc-sa/3.0/ by bac9 et.al. available at http://forum.kerbalspaceprogram.com/threads/92630-0-24-2-B9-Aerospace-Release-5

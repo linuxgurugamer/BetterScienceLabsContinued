@@ -1,6 +1,6 @@
 {
 	"NAME":"Better Science Labs Continued",
-	"URL":"http://ksp-avc.cybutek.net/version.php?id=177",
+	"URL":"http:ksp.spacetux.net/avc/BetterScienceLabsContinued",
 	"DOWNLOAD":"http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued/download",
 	"CHANGE_LOG_URL":"http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued#changelog",
 	"VERSION":
@@ -8,7 +8,7 @@
 		"MAJOR":0,
 		"MINOR":1,
 		"PATCH":9,
-		"BUILD":3
+		"BUILD":4
 	},
 	"KSP_VERSION_MIN":
 	{
@@ -19,7 +19,7 @@
 	"KSP_VERSION_MAX":
 	{
 		"MAJOR":1,
-		"MINOR":4,
+		"MINOR":5,
 		"PATCH":99
 	}
 }

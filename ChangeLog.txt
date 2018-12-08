@@ -21,3 +21,7 @@
 
 0.1.9.4
 	Updated for 1.5 rebuild
+	
+0.1.9.5
+	Adjusted some of teh researchTime values, they were too high
+	Removed maxversion from .version file

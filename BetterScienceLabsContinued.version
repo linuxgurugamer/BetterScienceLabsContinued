@@ -1,19 +1,17 @@
 {
-	"NAME":"Better Science Labs Continued",
-	"URL":"http://ksp.spacetux.net/avc/BetterScienceLabsContinued",
-	"DOWNLOAD":"http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued/download",
-	"CHANGE_LOG_URL":"http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued#changelog",
-	"VERSION":
-	{
-		"MAJOR":0,
-		"MINOR":1,
-		"PATCH":9,
-		"BUILD":5
-	},
-	"KSP_VERSION_MIN":
-	{
-		"MAJOR":1,
-		"MINOR":2,
-		"PATCH":0
-	}
+  "NAME": "Better Science Labs Continued",
+  "URL": "http://ksp.spacetux.net/avc/BetterScienceLabsContinued",
+  "DOWNLOAD": "http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued/download",
+  "CHANGE_LOG_URL": "http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued#changelog",
+  "VERSION": {
+    "MAJOR": 0,
+    "MINOR": 1,
+    "PATCH": 9,
+    "BUILD": 5
+  },
+  "KSP_VERSION_MIN": {
+    "MAJOR": 1,
+    "MINOR": 2,
+    "PATCH": 0
+  }
 }

@@ -27,6 +27,9 @@
 	Removed maxversion from .version file
 	
 0.1.10
-	Added bulkheadProfiles to \:
+	Added bulkheadProfiles to:
 		Mobile Processing Lab MPL-ON-2
 		Mobile Processing Lab MPL-FS2-2
+		
+0.1.10.1
+	Added mssing bulkheadProfiles

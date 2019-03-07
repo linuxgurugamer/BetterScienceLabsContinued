@@ -33,3 +33,6 @@
 		
 0.1.10.1
 	Added mssing bulkheadProfiles
+
+0.1.10.2
+	Added whitelist file for the new ReStock mod

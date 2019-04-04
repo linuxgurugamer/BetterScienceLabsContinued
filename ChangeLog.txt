@@ -36,3 +36,6 @@
 
 0.1.10.2
 	Added whitelist file for the new ReStock mod
+
+0.1.10.3
+	Updated the SNACK retrieval probe per forum user @aat's suggestoin

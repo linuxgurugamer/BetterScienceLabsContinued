@@ -39,3 +39,6 @@
 
 0.1.10.3
 	Updated the SNACK retrieval probe per forum user @aat's suggestoin
+
+0.1.11
+	Updated for 1.7

@@ -1,3 +1,5 @@
+ChangeLog
+
 0.1.2.0		6/12/2015
 	Added OPT small lab
 	Added MM syntax to make sure KSP doesn't try to load a part for which the mod isn't installed
@@ -42,3 +44,6 @@
 
 0.1.11
 	Updated for 1.7
+
+0.2.0
+	Updated version file for KSP 1.8

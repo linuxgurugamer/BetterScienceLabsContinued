@@ -1,5 +1,6 @@
 rem
-rem This file should be run on Windows, in the Kerbonov directory
+rem This file should be run on Windows, in the 
+rem echo BetterScienceLabsContinued directory
 rem
 rem Double-clicking on the file while in Windows Explorer should
 rem be sufficient
@@ -19,6 +20,7 @@ mkdir Command
 cd Command
 mkdir Mk1-2Pod
 cd Mk1-2Pod
+pwd
 copy ..\..\..\..\Squad\zDeprecated\Parts\Command\Mk1-2Pod\*
 
 echo.

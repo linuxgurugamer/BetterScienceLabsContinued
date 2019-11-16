@@ -5,19 +5,20 @@
   "CHANGE_LOG_URL": "http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued#changelog",
   "VERSION": {
     "MAJOR": 0,
-    "MINOR": 2,
-    "PATCH": 0,
+    "MINOR": 1,
+    "PATCH": 11,
     "BUILD": 0
   },
   "KSP_VERSION_MIN": {
     "MAJOR": 1,
-    "MINOR": 8,
+    "MINOR": 7,
     "PATCH": 0
   },
-  "INSTALL_LOC_1": {
-    "NAME": "BetterScienceLabsContinued",
-    "PATH": "",
-    "DIRECTORY": "BetterScienceLabsContinued",
-    "FILE": "BetterScienceLabsContinued.version"
+  "INSTALL_LOC_1":
+  {
+    "NAME":    "BetterScienceLabsContinued",
+    "PATH":         "",
+    "DIRECTORY":    "BetterScienceLabsContinued",
+    "FILE":         "BetterScienceLabsContinued.version"
   }
 }

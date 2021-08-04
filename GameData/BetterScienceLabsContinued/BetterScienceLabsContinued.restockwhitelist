@@ -5,3 +5,12 @@ Squad/Parts/Command/probeStackSphere/model.mu
 Squad/Parts/Command/probeStackSphere/model000.mu
 Squad/Parts/Science/MaterialBay/science_module_small.mu
 Squad/Parts/Utility/mk2CrewCabin/model.mu
+
+Squad/Parts/Command/hitchhikerStorageContainer/cabin
+Squad/Parts/Command/hitchhikerStorageContainer/cabin_n
+Squad/Parts/Command/hitchhikerStorageContainer/cabin_Illum
+Squad/Parts/Science/MaterialBay/science_module_small
+Squad/Parts/Science/MaterialBay/science_module_small_nrm
+Squad/Parts/Science/MaterialBay/science_module_small_emit
+Squad/Parts/Science/MaterialBay/wires
+

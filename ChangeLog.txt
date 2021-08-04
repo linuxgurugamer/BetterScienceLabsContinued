@@ -47,3 +47,7 @@ ChangeLog
 
 0.2.0
 	Updated version file for KSP 1.8
+
+0.2.1
+	Added more textures to restock whitelist
+	Updated version file for 1.12

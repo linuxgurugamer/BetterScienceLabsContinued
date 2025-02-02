@@ -22,6 +22,7 @@ mkdir Mk1-2Pod
 cd Mk1-2Pod
 pwd
 copy ..\..\..\..\Squad\zDeprecated\Parts\Command\Mk1-2Pod\*
+del mk1-2CommandPod.cfg
 
 echo.
 echo.

@@ -55,3 +55,12 @@ ChangeLog
 0.2.1.1
 	Updated version file to use github for new version info
 	Copied full web page to README
+
+0.2.1.2 
+	Thanks to github user @KSAMissionCtrl for finding this:
+		Fixed typo in OrionNewScience part (missing brace)
+		Fixed path for the BSLsnackprobe model
+		Fixed model path for J Mobile Lab LP3, short version
+		Updated restock whitelist for the probeStackSphere model
+	Updated batch copy scripts to remove unnecessary cfg which 
+		created a duplicate command pod

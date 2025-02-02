@@ -19,7 +19,7 @@ mkdir -p $DIR/Squad/Command
 cd $DIR/Squad/Command
 mkdir Mk1-2Pod
 cp ../../../Squad/zDeprecated/Parts/Command/Mk1-2Pod/* Mk1-2Pod
-
+rm Mk1-2Pod/mk1-2CommandPod.cfg
 
 echo -e "\n\nThe files have been copied\n"
 echo "Press return to continue"

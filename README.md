@@ -1,34 +1,32 @@
 # BetterScienceLabsContinued
+
 Better Science Labs Continued
+
 
 
 I've forked an old project called Better Science labs.
 
- I'm adding extra labs which don't exist.
+I'm adding extra labs which don't exist.
 
 You can find it here: http://spacedock.info/mod/45/Better%20Science%20Labs%20Continued
 
-I﻿MPORTANT INSTALLATION INSTRUCTIONS for 1.7 and later
-
-In 1.7, the Mk1-2 pod has been deprecated, moved into the zDeprecated directory, and are not directly accessible during loading.
-
-To address this, I've provided a pair of scripts, one to be used on Windows and the other to be used on both Linux & OSX.  These only need to be run one time
 
 
 Windows Instructions
 
 Open the BetterScienceLabsContinued folder in Windows Explorer
-Double-click on the file Windows_CopyTextures.bat (note that on most systems, you won't see the .bat)
-Linux & OSX Desktop Instructions
+Double-click on the file Windows\_CopyTextures.bat (note that on most systems, you won't see the .bat)
+Linux \& OSX Desktop Instructions
 
-Open the BetterScienceLabsContinued folder Desktop 
+Open the BetterScienceLabsContinued folder Desktop
 Double-click on the file:  BashCopyTextures.sh
-Linux & OSX Terminal Instructions
+Linux \& OSX Terminal Instructions
 
 Change to the GameData/BetterScienceLabsContinued directory
 Type the following:
-    bash BashCopyTextures.sh
-    
+bash BashCopyTextures.sh
+
+
 
 Currently it has the following new labs:
 
@@ -64,7 +62,8 @@ http://i.imgur.com/feC4Y8c.png
 http://i.imgur.com/zO0Ste3.png
 
 http://i.imgur.com/5MVNRM7.png
- 
+
+
 
 All original licenses apply:
 
@@ -74,4 +73,3 @@ B9 Aerospace models and textures licensed Creative Commons (CC BY-NC-SA 3.0):
 
 https://creativecommons.org/licenses/by-nc-sa/3.0/ by bac9 et.al. available at http://forum.kerbalspaceprogram.com/threads/92630-0-24-2-B9-Aerospace-Release-5
 
- 

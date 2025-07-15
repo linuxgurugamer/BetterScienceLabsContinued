@@ -64,3 +64,10 @@ ChangeLog
 		Updated restock whitelist for the probeStackSphere model
 	Updated batch copy scripts to remove unnecessary cfg which 
 		created a duplicate command pod
+
+
+0.2.2
+	Removed batch scripts which were used to copy deprecated Squad textures into local directory
+	Added deprecated Squad textures, see following note:
+		Note:  	The owners of KSP, through their Community Manager Ghostii_Space, confirmed 2 years 
+			ago that reusing old Squad assets are ok

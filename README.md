@@ -12,20 +12,6 @@ You can find it here: http://spacedock.info/mod/45/Better%20Science%20Labs%20Con
 
 
 
-Windows Instructions
-
-Open the BetterScienceLabsContinued folder in Windows Explorer
-Double-click on the file Windows\_CopyTextures.bat (note that on most systems, you won't see the .bat)
-Linux \& OSX Desktop Instructions
-
-Open the BetterScienceLabsContinued folder Desktop
-Double-click on the file:  BashCopyTextures.sh
-Linux \& OSX Terminal Instructions
-
-Change to the GameData/BetterScienceLabsContinued directory
-Type the following:
-bash BashCopyTextures.sh
-
 
 
 Currently it has the following new labs:

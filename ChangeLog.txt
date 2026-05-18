@@ -6,6 +6,7 @@ ChangeLog
 	Changed the snack probe, KASModuleContainer, replaced with ModuleKISInventory
 	Added snacks experiment to OPT labs 
 	Added Changelog
+	
 0.1.3.0		10/14/2015
 	wrong syntax and unnecessary 
 0.1.5	1.0.5 compatibility
@@ -71,3 +72,7 @@ ChangeLog
 	Added deprecated Squad textures, see following note:
 		Note:  	The owners of KSP, through their Community Manager Ghostii_Space, confirmed 2 years 
 			ago that reusing old Squad assets are ok
+			
+0.2.2.1
+	Thanks to github user @rakkasumi for this:
+		added missed vesselType definition in BSLMPL-MK-1-CC-1.cfg
